@@ -20,7 +20,7 @@ php composer.phar require sabirov/yii2-bootstrap4-cropper
 or add
 
 ```
-"sabirov/yii2-bootstrap4-cropper": "^0.1.1"
+"zpearl/yii2-bootstrap4-cropper": "^0.1.1"
 ```
 
 to the require section of your `composer.json` file.
@@ -63,7 +63,7 @@ In your model you need to add the following code  :
 Simple usage in view file
 -----
 ```php
-use sabirov\cropper\Cropper;
+use zpearl\cropper\Cropper;
 
 $uploadPath = Yii::getAlias('@web') . '/upload';
 $img_url = is_null($model->avatar) ? null : $uploadPath . DIRECTORY_SEPARATOR . $model->avatar;
@@ -82,7 +82,7 @@ ActiveForm::end();
 Advanced usage in view file
 -----
 ```php
-use sabirov\cropper\Cropper;
+use zpearl\cropper\Cropper;
 
 $uploadPath = Yii::getAlias('@web') . '/upload';
 $img_url = is_null($model->avatar) ? null : $uploadPath . DIRECTORY_SEPARATOR . $model->avatar;
