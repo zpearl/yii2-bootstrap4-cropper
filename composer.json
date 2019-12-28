@@ -1,5 +1,5 @@
 {
-  "name": "sabirov/yii2-bootstrap4-cropper",
+  "name": "zpearl/yii2-bootstrap4-cropper",
   "description": "Cropper for Yii2",
   "type": "yii2-extension",
   "keywords": [
@@ -12,6 +12,10 @@
     {
       "name": "Dmitriy Sabirov",
       "email": "web8dew@yandex.ru"
+    },
+    {
+      "name": "zpearl",
+      "email": "zpearl80@gmail.com"
     }
   ],
   "minimum-stability": "dev",
@@ -20,7 +24,7 @@
     "fxp/composer-asset-plugin": "^1.4.4",
     "php": ">=5.4.0",
     "yiisoft/yii2": "~2.0.6",
-    "yiisoft/yii2-bootstrap4": "~1.0.0",
+    "yiisoft/yii2-bootstrap4": "*",
     "npm-asset/cropperjs": "~1.4.3"
   },
   "autoload": {
