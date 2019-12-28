@@ -14,7 +14,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require sabirov/yii2-bootstrap4-cropper
+php composer.phar require zpearl/yii2-bootstrap4-cropper
 ```
 
 or add

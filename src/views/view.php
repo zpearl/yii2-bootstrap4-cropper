@@ -91,7 +91,7 @@ echo Html::tag(
     'div',
     Html::img('#', [
         'id' => $imageId,
-        'class' => 'sabirov-cropper-image',
+        'class' => 'zpearl-cropper-image',
         'alt' => 'Upload a picture',
     ])
 );
@@ -208,5 +208,5 @@ $js = <<<JS
 })(jQuery);
 JS;
 
-Yii::$app->view->registerJs($js, $this::POS_LOAD, 'sabirov-cropper-' . $thisId);
+Yii::$app->view->registerJs($js, $this::POS_LOAD, 'zpearl-cropper-' . $thisId);
 
