@@ -29,7 +29,7 @@
   },
   "autoload": {
     "psr-4": {
-      "sabirov\\cropper\\": "src"
+      "zpearl\\cropper\\": "src"
     }
   },
   "extra": {
